@@ -1,30 +1,30 @@
-let students = [
+let carsArr = [
     {
-        name: 'Светлова',
-        dob: '15.01.2000',
-        gender: 'ж',
-        group: '01',
+        brand: 'Audi',
+        model: 'A6',
+        color: 'белый',
+        transm: 'автомат',
     },
     {
-        name: 'Иванов',
-        dob: '10.05.1999',
-        gender: 'м',
-        group: '01',
+        brand: 'Audi',
+        model: 'A4',
+        color: 'красный',
+        transm: 'автомат',
     },
     {
-        name: 'Аникина',
-        dob: '23.04.2001',
-        gender: 'ж',
-        group: '02',
+        brand: 'Ford',
+        model: 'Focus',
+        color: 'черный',
+        transm: 'автомат',
     },
     {
-        name: 'Сидоров',
-        dob: '17.08.2004',
-        gender: 'м',
-        group: '02',
+        brand: 'Toyota',
+        model: 'Camry',
+        color: 'синий',
+        transm: 'механика',
     },
     {
-        name: 'Путин',
+        brand: 'BMW',
         dob: '20.06.2000',
         gender: 'м',
         group: '03',
@@ -32,5 +32,6 @@ let students = [
 
 ];
 
-let users = students.map(user=>({ name: user.name}));
-console.log(users.sort());
+function listCar(){
+    
+}
